@@ -1,0 +1,46 @@
+
+body {
+  background-color: #F8FAFC;  /* Light gray-blue */
+  color: #1F2937;             /* Dark gray text */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.navbar {
+  background-color: #4F46E5 !important; /* Indigo */
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.badge.bg-warning {
+  background-color: #F59E0B !important; /* Amber */
+  color: #fff !important;
+}
+
+.btn-primary {
+  background-color: #4F46E5;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #4338CA; /* darker indigo */
+}
+
+.section-title {
+  color: #4F46E5;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #E0E7FF; /* light indigo tint */
+  padding: 20px;
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&family=Orbitron:wght@600&display=swap');
+
+.highlight-section {
+    background: linear-gradient(135deg, #111827, #1f2937, #0f172a);
+    padding: 80px 0;
+    font-family: 'Rajdhani', sans-serif;
+    color: #f3f4f6;
+    text-shadow: 1px 1px 2px #000;
+    border-bottom: 8px solid #f59e0b;
+}
+
+/* Courses Page Cards */
+.course-card {
+    background: #f8f9fa;
+    padding: 1.8rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-left: 5px solid #22d3ee; /* Cyan accent */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.course-card h4 {
+    color: #0f172a; /* Dark navy for titles */
+}
+
+.btn-course {
+    background-color: #ffcc00; /* Golden accent */
+    color: #0f172a;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-course:hover {
+    background-color: #ffaa00;
+    color: #fff;
+}
+
+
+.highlight-section h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #facc15;
+}
+
+.highlight-section h4 {
+    color: #60a5fa;
+    font-weight: bold;
+}
+
+.highlight-section p {
+    font-size: 1.1rem;
+}
+
+.btn-warning {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 30px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
